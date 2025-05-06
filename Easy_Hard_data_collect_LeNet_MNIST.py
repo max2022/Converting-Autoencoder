@@ -52,5 +52,6 @@ print(g_accs)
 print(g_diffs)
 print(g_ts)
 print(g_exits)
+#Please use these following commands for extracting the exit points for the input datasets 
 #grep numexit lenet.txt | awk -F '[' '{print $2}' | awk -F ']' '{print $1}' > lenet_test.txt
 #awk '{if ($1=="0,"){$1="1"}else{$1="0"} print $1}' lenet_test.txt > lenet_final.txt
